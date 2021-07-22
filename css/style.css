@@ -3,17 +3,30 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* typo */
+h2,
+p{
+  margin: 30px 0;
+}
+
+#hero{
+  color: #fff;
+}
+
 /* button */
 .btn{
   border-radius: 30px;
+  color: #fff;
 }
 .btn_black{
-  color: #fff;
   background-color: #363636;
+}
+.btn_red{
+  background-color: #cd3d0f;
 }
 
 /* header */
-.header-top{
+.header_top{
   text-align: right;
   background-color: #000;
 }
@@ -29,7 +42,7 @@ body{
   width: 9px;
   margin-left: 6px;
 }
-.header-top img{
+.header_top img{
   height: 15px;
   margin: 10px;
 }
@@ -38,4 +51,29 @@ body{
 }
 .nav-link img{
   height: 25px;
+}
+
+/* main */
+.hero_top{
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.hero_top_text{
+  padding: 250px 0 50px;
+}
+.hero_top_img_returnal{
+  height: 30px;
+}
+.hero_bottom .row{
+  margin: 30px 0;
+}
+.hero_thumb{
+  margin: 15px 0;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.hero_thumb img{
+  width: 100%;
 }
