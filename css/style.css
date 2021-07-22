@@ -20,6 +20,15 @@ body{
 .navbar-light .navbar-nav .nav-link{
   color: #000;
 }
+.nav-item:not(:last-child){
+  margin-right: 10px;
+}
+.nav-link:not(#nav_search)::after{
+  display: inline-block;
+  content: url(../img/chevron-down-solid.svg);
+  width: 9px;
+  margin-left: 6px;
+}
 .header-top img{
   height: 15px;
   margin: 10px;
