@@ -4,13 +4,22 @@ body{
 }
 
 /* typo */
+#ps5{
+  padding-top: 70px;
+}
 h2,
 p{
   margin: 30px 0;
 }
 
-#hero{
+/* text color */
+#hero,
+#hero p{
   color: #fff;
+}
+p{
+  font-weight: 500;
+  color: #727272;
 }
 
 /* button */
@@ -26,9 +35,19 @@ p{
 }
 
 /* header */
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
 .header_top{
   text-align: right;
   background-color: #000;
+}
+.header_top img{
+  height: 15px;
+  margin: 10px;
 }
 .navbar-light .navbar-nav .nav-link{
   color: #000;
@@ -42,10 +61,6 @@ p{
   width: 9px;
   margin-left: 6px;
 }
-.header_top img{
-  height: 15px;
-  margin: 10px;
-}
 .navbar-brand{
   height: 100%;
 }
@@ -54,10 +69,13 @@ p{
 }
 
 /* main */
+main{
+  margin-top: 111px;
+}
 .hero_top{
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
-  background-position: center;
+  background-position: top center;
 }
 .hero_top_text{
   padding: 250px 0 50px;
@@ -76,4 +94,9 @@ p{
 }
 .hero_thumb img{
   width: 100%;
+}
+#ps5 h6{
+  color: #117bd1;
+  font-size: 0.75rem;
+  margin-bottom: -30px;
 }

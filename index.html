@@ -1,129 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PlayStation</title>
-    <link rel="shortcut icon" href="img/FaviconPS.ico" type="image/x-icon">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- /Bootstrap -->
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="header_top">
-        <img src="img/sony_logo.svg" alt="sony logo">
-      </div>
-      <div class="header_bottom">
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="img/play_logo.svg" alt="sony_logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- collapse -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Giochi</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Hardware</a>
-                </li><li class="nav-item">
-                  <a class="nav-link" href="#">Servizi</a>
-                </li><li class="nav-item ">
-                  <a class="nav-link" href="#">Novità</a>
-                </li><li class="nav-item">
-                  <a class="nav-link" href="#">Fai acquisti</a>
-                </li><li class="nav-item">
-                  <a class="nav-link" href="#">Supporto</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">My PlayStation</a>
-                </li>
-                <li class="nav-item">
-                  <button class="btn btn_black" type="submit">Accedi</button>
-                </li>
-                <li class="nav-item">
-                  <a id="nav_search" class="nav-link" href="#">
-                    <img src="img/lens.svg" alt="search">
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <!-- /collapse -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlayStation</title>
+  <link rel="shortcut icon" href="img/FaviconPS.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- /Bootstrap -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header_top">
+      <img src="img/sony_logo.svg" alt="sony logo">
+    </div>
+    <div class="header_bottom">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- logo -->
+          <a class="navbar-brand" href="#">
+            <img src="img/play_logo.svg" alt="sony_logo">
+          </a>
+          <!-- /logo -->
+          <!-- button mobile -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- /button mobile -->
+          <!-- collapse -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Giochi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hardware</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servizi</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Novità</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Fai acquisti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Supporto</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">My PlayStation</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn_black" type="submit">Accedi</button>
+              </li>
+              <li class="nav-item">
+                <a id="nav_search" class="nav-link" href="#">
+                  <img src="img/lens.svg" alt="search">
+                </a>
+              </li>
+            </ul>
           </div>
-        </nav>
-        <!-- /navbar -->
-      </div>
-    </header>
-    <main>
-      <section id="hero">
-        <!-- hero top -->
-        <div class="container-fluid hero_top">
-          <div class="container">
-            <div class="row">
-              <div class="hero_top_text col-lg-4">
-                <img class="hero_top_img_returnal" src="img/returnal-hero-banner-logo.png" alt="returnal">
-                <h2>Rompi il cerchio</h2>
-                <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile su PS5.</p>
-                <a href="#" class="btn btn_red">Acquista ora</a>
-              </div>
-            </div>
-          </div>
+          <!-- /collapse -->
         </div>
-        <!-- /hero top -->
-        <!-- hero bottom -->
-        <div class="container hero_bottom">
+      </nav>
+      <!-- /navbar -->
+    </div>
+  </header>
+  <main>
+    <!-- hero -->
+    <section id="hero">
+      <!-- hero top -->
+      <div class="container-fluid hero_top">
+        <div class="container">
           <div class="row">
-            <div class="col-6 col-sm-4 col-lg-2">
-              <div class="hero_thumb">
-                <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal thumb">
-              </div>             
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2">
-              <div class="hero_thumb">
-                <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet thumb">
-              </div>             
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2">
-              <div class="hero_thumb">
-                <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal thumb">
-              </div>
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2">
-              <div class="hero_thumb">
-                <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet thumb">
-              </div>
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2">
-              <div class="hero_thumb">
-                <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal thumb">
-              </div>
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2">
-              <div class="hero_thumb">
-                <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet thumb">
-              </div>
+            <div class="hero_top_text col-lg-4">
+              <img class="hero_top_img_returnal" src="img/returnal-hero-banner-logo.png" alt="returnal">
+              <h2>Rompi il cerchio</h2>
+              <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller
+                fantascientifico, disponibile su PS5.</p>
+              <a href="#" class="btn btn_red">Acquista ora</a>
             </div>
           </div>
         </div>
-        <!-- /hero bottom -->
-      </section>
-    </main>
-    <footer></footer>
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- /Bootstrap JS -->
-  </body>
+      </div>
+      <!-- /hero top -->
+      <!-- hero bottom -->
+      <div class="container hero_bottom">
+        <div class="row">
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="hero_thumb">
+              <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal thumb">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="hero_thumb">
+              <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet thumb">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="hero_thumb">
+              <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal thumb">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="hero_thumb">
+              <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet thumb">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="hero_thumb">
+              <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal thumb">
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="hero_thumb">
+              <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet thumb">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /hero bottom -->
+    </section>
+    <!-- /hero -->
+    <!-- ps5 -->
+    <section id="ps5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h6>PLAY HAS NO LIMITS</h6>
+            <h2>Ecco la PlayStation 5</h2>
+            <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /ps5 -->
+  </main>
+  <footer></footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- /Bootstrap JS -->
+</body>
+
 </html>
