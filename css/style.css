@@ -41,6 +41,9 @@ p{
 .btn_blue{
   background-color: #2d64e6;
 }
+.btn_white{
+  background-color: #d9dadc;
+}
 
 /* header */
 header{
@@ -174,5 +177,20 @@ main{
   font-size: 19px;
 }
 .ps4 img{
+  width: 100%;
+}
+.ps_plus{
+  background-color: #bebcbb;
+}
+.ps_plus_logo{
+  height: 65px;
+}
+.ps_plus p{
+  color: #000;
+}
+.ps_plus .btn{
+  color: #2d64e6;
+}
+.ps_plus_monthly{
   width: 100%;
 }
