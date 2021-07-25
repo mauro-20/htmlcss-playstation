@@ -173,7 +173,8 @@ main{
 .ps4 h3{
   font-size: 37px;
 }
-.ps4 p{
+.ps4 p,
+.store p{
   font-size: 19px;
 }
 .ps4 img{
@@ -192,5 +193,8 @@ main{
   color: #2d64e6;
 }
 .ps_plus_monthly{
+  width: 100%;
+}
+.store img{
   width: 100%;
 }
