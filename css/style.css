@@ -183,7 +183,8 @@ main{
 .ps_plus{
   background-color: #bebcbb;
 }
-.ps_plus_logo{
+.ps_plus_logo,
+.ps_now_logo{
   height: 65px;
 }
 .ps_plus p{
@@ -192,9 +193,19 @@ main{
 .ps_plus .btn{
   color: #2d64e6;
 }
-.ps_plus_monthly{
+.ps_plus_monthly,
+.ps_now_monthly{
   width: 100%;
 }
 .store img{
   width: 100%;
+}
+.ps_now{
+  background-color: #161c3b;
+}
+.ps_now p{
+  color: #fff;
+}
+.ps_now .btn{
+  color: #000;
 }
