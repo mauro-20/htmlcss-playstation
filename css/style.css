@@ -164,3 +164,15 @@ main{
 .out_now_thumb img{
   width: 100%;
 }
+.ps4 h2 .reg{
+  font-size: 1rem;
+}
+.ps4 h3{
+  font-size: 37px;
+}
+.ps4 p{
+  font-size: 19px;
+}
+.ps4 img{
+  width: 100%;
+}
