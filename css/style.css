@@ -7,6 +7,9 @@ body{
 h2{
   font-size: 40px;
 }
+h3{
+  font-size: 30px;
+}
 h2,
 p{
   margin: 30px 0;
@@ -14,7 +17,9 @@ p{
 
 /* text color */
 #hero,
-#hero p{
+#hero p,
+.out_now,
+#out_now p{
   color: #fff;
 }
 p{
@@ -133,4 +138,29 @@ main{
 }
 .ps5_item p{
   margin: 10px 0 0;
+}
+.out_now{
+  background-color: #1f1f1f;
+}
+.out_now_top{
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+.out_now_top_text{
+  padding: 50px 0 50px;
+}
+.out_now_top_img_itTakesTwo{
+  height: 150px;
+}
+.out_now_bottom p{
+  font-size: 20px;
+}
+.out_now_thumb{
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.out_now_thumb img{
+  width: 100%;
 }
