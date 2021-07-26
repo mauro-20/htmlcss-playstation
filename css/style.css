@@ -41,15 +41,35 @@ p{
 }
 .btn_black{
   background-color: #363636;
+  border: 2px solid #363636;
 }
 .btn_red{
   background-color: #cd3d0f;
+  border: 2px solid #cd3d0f;
 }
 .btn_blue{
   background-color: #2d64e6;
+  border: 2px solid #2d64e6;
 }
 .btn_white{
   background-color: #d9dadc;
+  border: 2px solid #d9dadc;
+}
+.btn:hover{
+  color: #fff;
+  box-shadow: 0 0 0 2px #fff inset;
+}
+.btn_black:hover{
+  background-color: #636363;
+
+}
+.btn_red:hover,
+.ps_now .btn_white:hover{
+  box-shadow: 0 0 0 2px #000 inset;
+}
+.ps_plus .btn_white:hover{
+  box-shadow: 0 0 5px 1px #fff;
+
 }
 
 /* header */
