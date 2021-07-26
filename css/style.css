@@ -161,6 +161,7 @@ main{
   height: 100%;
   border-bottom: 3px solid transparent;
   color: #000;
+  cursor: pointer;
 }
 .ps5_item.active{
   border-bottom: 3px solid #117bd1;
@@ -173,6 +174,9 @@ main{
   left: 0;
   right: 0;
   background-color: rgba(255,255,255,0.4);
+}
+.ps5_item:hover::after{
+  opacity: 0;
 }
 .ps5_item img{
   width: 60%;
@@ -271,6 +275,9 @@ footer{
 }
 footer li{
   line-height: 2rem;
+}
+footer li a:hover{
+  color: inherit;
 }
 .footer_sie_logo img{
   height: 50px;
