@@ -209,3 +209,12 @@ main{
 .ps_now .btn{
   color: #000;
 }
+.social .container{
+  max-width: 550px;
+}
+.social h2{
+  font-size: 30px;
+}
+.social img{
+  width: 100%;
+}
