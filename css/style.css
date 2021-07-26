@@ -131,9 +131,14 @@ main{
   padding: 2px;
   overflow: hidden;
   cursor: pointer;
-}.hero_thumb.active{
+  transition: transform 0.3s;
+}
+.hero_thumb.active{
   border: 2px solid #0072ce;
   padding: 2px;
+}
+.hero_thumb:not(.active):hover{
+  transform: translateY(-8px)
 }
 .hero_thumb img{
   width: 100%;
