@@ -105,13 +105,19 @@ main{
   margin: 30px 0;
 }
 .hero_thumb{
-  margin: 15px 0;
+  margin: 10px 0;
   border-radius: 15px;
+  border: 2px solid transparent;
+  padding: 2px;
   overflow: hidden;
   cursor: pointer;
+}.hero_thumb.active{
+  border: 2px solid #0072ce;
+  padding: 2px;
 }
 .hero_thumb img{
   width: 100%;
+  border-radius: 12px;
 }
 #ps5{
   padding-top: 70px;
