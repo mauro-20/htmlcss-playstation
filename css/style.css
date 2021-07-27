@@ -87,22 +87,31 @@ header{
   height: 15px;
   margin: 10px;
 }
+.navbar-brand{
+  height: 100%;
+}
 .navbar-light .navbar-nav .nav-link{
   color: #000;
+}
+.nav-item.dropdown .nav-link:hover{
+  color: #0070d1;
 }
 .nav-item:not(:last-child){
   margin-right: 10px;
 }
-.nav-link:not(#nav_search)::after{
-  display: inline-block;
+.dropdown-toggle::after {
+  border: none;
   content: url(../img/chevron-down-solid.svg);
-  width: 9px;
-  margin-left: 6px;
+  width: 10px;
+  vertical-align: middle;
 }
-.navbar-brand{
-  height: 100%;
+.dropdown-toggle:hover::after{
+  content: url(../img/chevron-down-solid-hover.svg);
 }
-.nav-link img{
+.dropdown-toggle.show::after{
+  transform: rotate(180deg);
+}
+#nav_search img{
   height: 25px;
 }
 
