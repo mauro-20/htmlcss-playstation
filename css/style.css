@@ -87,13 +87,17 @@ header{
   height: 15px;
   margin: 10px;
 }
+.navbar{
+  background-color: #fff;
+}
 .navbar-brand{
   height: 100%;
 }
 .navbar-light .navbar-nav .nav-link{
   color: #000;
 }
-.nav-item.dropdown .nav-link:hover{
+.nav-item.dropdown .nav-link:hover,
+.nav-item.dropdown .nav-link.show{
   color: #0070d1;
 }
 .nav-item:not(:last-child){
@@ -105,11 +109,26 @@ header{
   width: 10px;
   vertical-align: middle;
 }
-.dropdown-toggle:hover::after{
+.dropdown-toggle:hover::after,
+.dropdown-toggle.show::after{
   content: url(../img/chevron-down-solid-hover.svg);
 }
 .dropdown-toggle.show::after{
   transform: rotate(180deg);
+}
+.dropdown{
+  position: static;
+}
+.dropdown-menu.show{
+  border: none;
+  width: 100%;
+  top: 74px;
+}
+.dropdown_ps_img{
+  width: 60px;
+}
+.dropdown_bottom{
+  border-top: 1px solid #999;
 }
 #nav_search img{
   height: 25px;
